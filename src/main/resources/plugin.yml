@@ -1,0 +1,6 @@
+name: BungeeBalancerBukkit
+version: ${project.version}
+main: me.deadlight.bungeebalancerbukkit.BungeeBalancerBukkit
+api-version: 1.13
+authors: [ Dead_Light ]
+description: Balancing auth
