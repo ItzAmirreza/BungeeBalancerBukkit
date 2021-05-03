@@ -86,13 +86,13 @@ public class onLogin implements Listener {
     private int getThePort(String servername) {
 
         if (servername.equalsIgnoreCase("Lobby1")) {
-            return 27720;
+            return 25521;
         } else if (servername.equalsIgnoreCase("Lobby2")) {
-            return 27722;
+            return 25123;
         } else if (servername.equalsIgnoreCase("Lobby3")) {
-            return 27723;
+            return 25312;
         } else {
-            return 27710;
+            return 25421;
         }
 
     }
