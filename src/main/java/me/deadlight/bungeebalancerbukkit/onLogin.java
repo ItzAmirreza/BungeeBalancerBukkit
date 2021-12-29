@@ -56,7 +56,7 @@ public class onLogin implements Listener {
 
 
         } else {
-            player.sendMessage(utils.color("&cServer haye lobby dar hale tamir mibashad, Lofan kami sabr konid."));
+            player.sendMessage(utils.color("&c&lERROR: &7Lobbies are now offline. Try Again Later!"));
         }
 
 
@@ -86,13 +86,13 @@ public class onLogin implements Listener {
     private int getThePort(String servername) {
 
         if (servername.equalsIgnoreCase("Lobby1")) {
-            return 25521;
+            return 25598;
         } else if (servername.equalsIgnoreCase("Lobby2")) {
-            return 25123;
+            return 25599;
         } else if (servername.equalsIgnoreCase("Lobby3")) {
-            return 25312;
+            return 25597;
         } else {
-            return 25421;
+            return 25595;
         }
 
     }
